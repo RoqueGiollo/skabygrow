@@ -1,17 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GaiaComponent } from './gaia/gaia.component';
+import { MarcasComponent } from './marcas/marcas.component';
 import { HomeComponent } from './home/home.component';
-import { LhumusComponent } from './lhumus/lhumus.component';
-import { MamboretaComponent } from './mamboreta/mamboreta.component';
-import { UkupachaComponent } from './ukupacha/ukupacha.component';
+import { TiendaComponent } from './tienda/tienda.component';
+import { PremiosComponent } from './premios/premios.component';
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
-  {path:'gaia', component: GaiaComponent},
-  {path:'lhumus', component: LhumusComponent},
-  {path:'mamboreta', component: MamboretaComponent},
-  {path:'ukupacha', component: UkupachaComponent},
+  {path:'marcas', component: MarcasComponent},
+  {path:'tienda', component: TiendaComponent},
+  {path:'premios', component: PremiosComponent},
 
 ];
 

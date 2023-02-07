@@ -6,10 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { GaiaComponent } from './gaia/gaia.component';
-import { LhumusComponent } from './lhumus/lhumus.component';
-import { MamboretaComponent } from './mamboreta/mamboreta.component';
-import { UkupachaComponent } from './ukupacha/ukupacha.component';
+import { MarcasComponent } from './marcas/marcas.component';
+import { TiendaComponent } from './tienda/tienda.component';
+import { PremiosComponent } from './premios/premios.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +16,9 @@ import { UkupachaComponent } from './ukupacha/ukupacha.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    GaiaComponent,
-    LhumusComponent,
-    MamboretaComponent,
-    UkupachaComponent
+    MarcasComponent,
+    TiendaComponent,
+    PremiosComponent
   ],
   imports: [
     BrowserModule,
